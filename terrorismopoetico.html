@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>.::REVISTA LASANHA DE LITERATURA DIGITAL::.</title>
+
+<style type="text/css">
+.menutitle{
+cursor:pointer;
+margin-bottom: 5px;
+background-color:#666633;
+color:#000000;
+width:440px;
+padding:2px;
+text-align:center;
+font-weight:bold;
+/*/*/border:1px solid #000000;/* */
+}
+
+.submenu{
+margin-bottom: 0.5em;
+}
+.menutitle p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.df {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.e {font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.e {text-align: center;
+}
+.dd {
+	color: #000;
+}
+.dd .ehggh {
+	color: #FFF;
+}
+.dd .e {
+	color: #FFF;
+}
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Switch Menu script- by Martial B of http://getElementById.com/
+* Modified by Dynamic Drive for format & NS4/IE4 compatibility
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var persistmenu="yes" //"yes" or "no". Make sure each SPAN content contains an incrementing ID starting at 1 (id="sub1", id="sub2", etc)
+var persisttype="sitewide" //enter "sitewide" for menu to persist across site, "local" for this page only
+
+if (document.getElementById){ //DynamicDrive.com change
+document.write('<style type="text/css">\n')
+document.write('.submenu{display: none;}\n')
+document.write('</style>\n')
+}
+
+function SwitchMenu(obj){
+	if(document.getElementById){
+	var el = document.getElementById(obj);
+	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
+		if(el.style.display != "block"){ //DynamicDrive.com change
+			for (var i=0; i<ar.length; i++){
+				if (ar[i].className=="submenu") //DynamicDrive.com change
+				ar[i].style.display = "none";
+			}
+			el.style.display = "block";
+		}else{
+			el.style.display = "none";
+		}
+	}
+}
+
+function get_cookie(Name) { 
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { 
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function onloadfunction(){
+if (persistmenu=="yes"){
+var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+var cookievalue=get_cookie(cookiename)
+if (cookievalue!="")
+document.getElementById(cookievalue).style.display="block"
+}
+}
+
+function savemenustate(){
+var inc=1, blockid=""
+while (document.getElementById("sub"+inc)){
+if (document.getElementById("sub"+inc).style.display=="block"){
+blockid="sub"+inc
+break
+}
+inc++
+}
+var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+var cookievalue=(persisttype=="sitewide")? blockid+";path=/" : blockid
+document.cookie=cookiename+"="+cookievalue
+}
+
+if (window.addEventListener)
+window.addEventListener("load", onloadfunction, false)
+else if (window.attachEvent)
+window.attachEvent("onload", onloadfunction)
+else if (document.getElementById)
+window.onload=onloadfunction
+
+if (persistmenu=="yes" && document.getElementById)
+window.onunload=savemenustate
+
+</script>
+
+
+
+
+
+
+<style type="text/css">
+.df {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	font-weight: bold;
+}
+body {
+	background-color: #000;
+	color: #666;
+}
+.TJU {	color: #FFF;
+}
+.dd {	color: #000;
+}
+.e {font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.e {text-align: center;
+}
+.menutitle {
+	cursor: pointer;
+	margin-bottom: 5px;
+	background-color: #B2B080;
+	color: #000000;
+	width: 440px;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+	/*/*/border: 1px solid #000000;/* */
+}
+
+.submenu {margin-bottom: 0.5em;
+}
+.ver {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+.reger {
+	color: #FFF;
+}
+.WWW {
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.menutitle1 {cursor:pointer;
+margin-bottom: 5px;
+background-color:#666633;
+color:#000000;
+width:440px;
+padding:2px;
+text-align:center;
+font-weight:bold;
+/*/*/border:1px solid #000000;/* */
+}
+.menutitle1 {	cursor: pointer;
+	margin-bottom: 5px;
+	background-color: #B2B080;
+	color: #000000;
+	width: 440px;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+	/*/*/border: 1px solid #000000;/* */
+}
+.submenu1 {margin-bottom: 0.5em;
+}
+.submenu1 {margin-bottom: 0.5em;
+}
+.dd1 {	color: #000;
+}
+.dd1 {color: #000;
+}
+.e1 {font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.e1 {text-align: center;
+}
+.e1 {font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.e1 {
+	text-align: center;
+	color: #FFF;
+}
+#masterdiv #sub1 p {
+	text-align: center;
+}
+#masterdiv #sub3 p {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<table border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#000000">
+<tbody>
+<tr>
+<td width="775" height="1022" valign="top" bgcolor="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="774">
+<tbody>
+<tr>
+<td bgcolor="#000000" width="100">
+<table border="0" cellpadding="0" cellspacing="0" width="772">
+<tbody>
+<tr>
+<td height="88" valign="top" width="311"><img src="s_image5.gif" height="88" width="311"><br>
+</td>
+<td bgcolor="#000000" valign="top" width="461"><img src="head.jpg" width="459" height="88" /></td>
+</tr>
+</tbody>
+</table>
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="774">
+<tbody>
+<tr>
+<td height="163" valign="top" width="152"><img src="s_mark1.jpg" height="172" width="152"></td>
+<td height="163" valign="top" width="159"><img src="s_image8.gif" height="172" width="159"></td>
+<td bordercolor="#FFFFFF" bgcolor="#ffffff" valign="top" width="463">
+<table bgcolor="#ffffff" height="172" width="462">
+<tbody>
+<tr>
+<td align="center" bgcolor="#000000" height="141" valign="middle" width="454"><em><font color="#ffffff" size="4"><img src="head2.jpg" width="454" height="98" /></font></em></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="763">
+<tbody>
+<tr>
+<td height="800" valign="top" bgcolor="#B2B080"><img src="index_blank.gif" height="1" width="136"><br>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="http://revistalasanha.bravehost.com/ed7/index_blank.gif">
+<tbody>
+<tr>
+<td width="9%" bgcolor="#B2B080">&nbsp;</td>
+<td bgcolor="#B2B080" width="50%">&nbsp;</td>
+<td bgcolor="#B2B080" width="11%">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#B2B080" width="9%">&nbsp;</td>
+<td align="center" valign="bottom" width="80%">
+<div align="right">
+  <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="http://www.maicknuclear.wix.com/online" target="_blank"><font color="#000000" face="Verdana, Geneva, sans-serif"><strong>Portfolio</strong><br>
+    Do Chef</font></a></font><br>
+</p>
+<div style="text-align: center;">
+  
+  <span class="df">Ajude-nos a manter a Lasanha. <br>
+Faça uma doação.</span>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="receiverEmail" value="maicknuclear@hotmail.com" />
+<input type="hidden" name="currency" value="BRL" />
+<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+<br>
+<font color="#000000" face="MS Sans Serif" size="1">Este site está licenciado sob uma </font> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><font color="#000000" face="MS Sans Serif" size="1">
+Licença Creative Commons</font></a></div>
+<br>
+<!-- Histats.com START -->
+<script type="text/javascript" language="javascript"> var s_sid = 71882;var st_dominio = 4; var cimg = 432;var cwi =112;var che =75; </script>
+<script type="text/javascript" language="javascript" src="http://s10.histats.com/js9.js"></script>
+<p></p>
+<div align="center">
+  <p>
+  <noscript> 
+  <br> <a
+href="http://www.histats.com" target="_blank"> <img
+src="http://s4.histats.com/stats/0.gif?71882&1" alt="free web hit
+counter" border="0"> 
+  </noscript>
+  <!-- Histats.com END --></p>
+  <p><a href="https://www.facebook.com/RevistaLasanha" target="_blank"><img src="457296219521137423.png" alt="" width="100" height="100" /></a></p>
+</div>
+</div>
+</td>
+<td bgcolor="#B2B080" valign="top" width="11%">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top"><img src="index_scroll.gif" height="359" width="21"><br>
+</td>
+<td valign="top" width="605">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" align="center" cellpadding="0" cellspacing="0" background="http://revistalasanha.bravehost.com/ed7/index_blank.gif" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td valign="top"><table width="610" height="594">
+  <tr>
+    <th width="602" height="588" align="center" valign="top" scope="row"><p>&nbsp;</p>
+      <p>
+        <object width="853" height="480">
+          <param name="movie" value="//www.youtube.com/v/RSBj10Cw0ng?&loop=1?version=3&amp;hl=pt_BR&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
+          <embed src="//www.youtube.com/v/RSBj10Cw0ng?version=3&amp;hl=pt_BR&amp;rel=0" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed>
+        </object>
+      </p>
+      <p>
+      <object width="853" height="480"><param name="movie" value="//www.youtube.com/v/ltDUR8hgmd4?version=3&amp;hl=pt_BR&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/ltDUR8hgmd4?version=3&amp;hl=pt_BR&amp;rel=0" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+      
+      
+      
+       </p>
+     <p><object width="853" height="480"><param name="movie" value="//www.youtube.com/v/hI0OFT0Ux9c?hl=pt_BR&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/hI0OFT0Ux9c?hl=pt_BR&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="853" height="480" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+     
+     
+     
+     
+      <!-- Keep all menus within masterdiv-->
+              <!-- Keep all menus within masterdiv-->
+                        <!-- Keep all menus within masterdiv--></th>
+  </tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td background="../2/images/index_black.gif" valign="top"><img src="../2/images/index_blank.gif" height="1" width="618"><br>
+<table style="width: 7px; height: 24px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="67" height="2" valign="top"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr valign="top">
+<td bgcolor="#B2B080">
+<div align="center"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1"><strong>
+® Revista Lasanha Literata é mais
+uma produção de:</strong></font><a href="http://www.maicknuclear.wix.com/online"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1"><strong><br>
+<font color="#000066">© 2008
+MaicknucleaR/Altacasa - All Donuts Reserved</font><br>
+</strong></font></a><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1"><strong>Pq. Edu Chaves, São Paulo,
+Capital
+</strong></font>
+
+<br /><!-- Histats.com  START  (standard)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="web hit counter" ><script  type="text/javascript" >
+try {Histats.start(1,2574781,4,137,112,33,"00011111");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2574781&101" alt="web hit counter" border="0"></a></noscript>
+<!-- Histats.com  END  --></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="272" valign="top" background="">&nbsp;</td>
+<td width="159" valign="top" background="">
+<script type="text/javascript">
+<!--
+coddisplaysupplier="3df1f0e0265b4f929b6539c491a02b8f";formatId="25";numads="1";type="5";idtShape="25";category="21";altColor="000000";deslabel="literatura";
+-->
+</script>
+<script type="text/javascript" src="http://adrequisitor-af.uol.com.br/uolafassinaturas.js"></script> 
+</td>
+</tr>
+</tbody>
+</table>
+
+</body></html>

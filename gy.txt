@@ -1,0 +1,2 @@
+       <font face="Arial, Helvetica, sans-serif" size="2" color="#000000">* A Revista Lasanha, até a edição 17, foi toda recuperada através do site archive.org, ou seja, caso você não encontre seu texto aqui, não foi devido a nenhum tipo de segregação, mas só foi possível recuperar os arquivos que o archive.org guardou em seu banco de dados!</font>
+                           
